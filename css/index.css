@@ -9,6 +9,12 @@ body{
   background-size: cover;
 }
 
+@media (max-width:800px) {
+  body{
+    background-image: url('../img/FONDO_Mesa\ de\ trabajo\ 1.jpg');
+  }
+}
+
 .container-login{
   display: flex;
   flex-direction: column;
