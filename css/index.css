@@ -3,7 +3,7 @@ body{
   display: flex;
   justify-content: flex-start;
   align-items:center;
-  background-image: url('./img/FONDO v2_Mesa de trabajo 1.jpg');
+  background-image: url('../img/FONDO v2_Mesa de trabajo 1.jpg');
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
