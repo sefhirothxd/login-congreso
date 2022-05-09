@@ -1,0 +1,60 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  background-image: url('./img/FONDO v2_Mesa de trabajo 1.jpg');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+}
+.img-login{
+  width:50%;
+  min-width:100px;
+}
+.container-login__title{
+  text-align: center;
+  font-size: 1rem;
+  color: #9b0000;
+  text-transform: uppercase;
+}
+.container-login__form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.container-login__form input {
+  border-radius: 30px;
+  padding:8px 20px;
+  outline: none;
+}
+.container-login__form input:focus {
+ border: 2px solid turquoise;
+}
+.container-login__form-recordar{
+  text-align: center;
+}
+.container-login__btn{
+  background: #9b0000;
+  color:#fff;
+  width:50%;
+  border-radius: 15px;
+  padding:10px 0px;
+  /* outline: none; */
+  border: none;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.container-login__olvide{
+  color: #9b0000;
+  text-decoration: underline;
+}
